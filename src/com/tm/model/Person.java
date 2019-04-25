@@ -1,4 +1,4 @@
-package com.tm.person;
+package com.tm.model;
 
 import java.time.LocalDate;
 import java.time.chrono.IsoChronology;

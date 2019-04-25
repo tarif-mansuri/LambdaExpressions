@@ -14,11 +14,13 @@ package com.tm.usinglocalclass;
 
 import java.util.List;
 
-import com.tm.person.Person;
+import com.tm.model.Person;
+import com.tm.utility.CheckPerson;
+import com.tm.utility.CheckPersonEligibleForSelectiveServic;
 
 public class App {
 	public static void main(String[] args) {
-		printPersons(Person.createRoster(), new CheckPersonEligibleForSelectiveService());
+		printPersons(Person.createRoster(), new CheckPersonEligibleForSelectiveServic());
 	}
 	public static void printPersons(
 		    List<Person> roster, CheckPerson tester) {
