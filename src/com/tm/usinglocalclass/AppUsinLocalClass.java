@@ -16,11 +16,11 @@ import java.util.List;
 
 import com.tm.model.Person;
 import com.tm.utility.CheckPerson;
-import com.tm.utility.CheckPersonEligibleForSelectiveServic;
+import com.tm.utility.CheckPersonEligibleForSelectiveService;
 
-public class App {
+public class AppUsinLocalClass {
 	public static void main(String[] args) {
-		printPersons(Person.createRoster(), new CheckPersonEligibleForSelectiveServic());
+		printPersons(Person.createRoster(), new CheckPersonEligibleForSelectiveService());
 	}
 	public static void printPersons(
 		    List<Person> roster, CheckPerson tester) {
