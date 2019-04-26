@@ -1,6 +1,8 @@
 package com.tm.usegenericsmoreextensivly;
 
 /**
+ * @author tarif-5329
+ * 
  * Predicate interface is generic functional interface containing only one function test
  * that takes one argument and returns boolean
  * 
